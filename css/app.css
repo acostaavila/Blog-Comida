@@ -5,6 +5,7 @@ body{
 }
 .cuerpo{
 	background-color: rgba(108, 100, 139, 0.55);
+	padding-bottom:2%;
 }
 
 /*--estilos de encabezado y logo*/
@@ -49,6 +50,7 @@ a.menu:link{
 .areapost{
 	margin-top:2%;
 	background-color: rgba(108, 100, 139, 0.55);
+	border-radius:10px;
 }
 .textpost{
 	text-align: left;
@@ -74,3 +76,41 @@ a.menu:link{
 	color:white;
 	font-size:200%;
 }
+.comentario-usuario{
+	font-family: 'The Girl Next Door', cursive;
+	font-weight: bold;
+	color:white;
+}
+.usuario{
+	background-color: rgba(0, 0, 0, 0.55);
+	border-radius:10px;
+	padding:5%;
+	min-height:2rem;	
+}
+.usuario3{
+	background-color: rgba(0, 0, 0, 0.55);
+	border-radius:10px;
+	padding:5%;
+	width:60%;
+}
+.burbuja-avatar{
+	padding-bottom:3%;
+}
+
+/* clase para ajustar en disferentes diispositivos el HTML */
+@media (max-width: 770px) {
+	.img-post{
+	width:80%;
+	margin-top:8%;
+	}
+	
+}
+
+@media (max-width:320px){
+	.img-post{
+	width:85%;
+	margin-top:8%;	
+	}
+}
+
+
