@@ -1,0 +1,25 @@
+body{
+	background:black;
+}
+/*--estilos de encabezado y logo*/
+.arealogo{
+	border-right:solid black;
+}
+.img-logo{
+	width:5em;
+}
+.slogan{
+	font-family: 'The Girl Next Door', cursive;
+	text-align:right;
+}
+
+/*--estilos de barra izquierda*/
+
+.favoritos{
+	font-family: 'The Girl Next Door', cursive;
+	text-align:left;
+}
+a.menu:link{
+	color:red;
+	text-decoration:underline;	
+}
