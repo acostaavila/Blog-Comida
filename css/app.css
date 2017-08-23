@@ -1,9 +1,17 @@
 body{
-	background:black;
+	background-image: url(../img/fondo2.jpg);
 }
+.cuerpo{
+	background-color: rgba(108, 100, 139, 0.55);
+}
+
 /*--estilos de encabezado y logo*/
+
+.encabezado{
+	background-color: rgba(108, 100, 139, 0.55);
+}
 .arealogo{
-	border-right:solid black;
+	border-right:solid black 0.5px;
 }
 .img-logo{
 	width:5em;
@@ -18,8 +26,14 @@ body{
 .favoritos{
 	font-family: 'The Girl Next Door', cursive;
 	text-align:left;
+	text-decoration:underline;
 }
 a.menu:link{
 	color:red;
 	text-decoration:underline;	
+}
+
+/*--estilos del area de post*/
+.areapost{
+	margin-top:5%;
 }
